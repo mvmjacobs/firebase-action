@@ -51,13 +51,13 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          GITHUB_FIREBASE_TOKEN: ${{ secrets.GITHUB_FIREBASE_TOKEN }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 ```
 
 ## Variables and secrets
 * `args`: This is the arguments that `firebase` command will run.
 
-* `GITHUB_FIREBASE_TOKEN`: The token to use for authentication.
+* `FIREBASE_TOKEN`: The token to use for authentication.
   - You can get a token with `firebase login:ci`
   - For information about using secrets in GitHub Actions please see the [Github Action Docs for Encrypted Secrets.](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
 
