@@ -1,0 +1,6 @@
+name: 'GitHub Action for Firebase'
+author: 'Marcos Vinicius Jacobs <@mvmjacobs>'
+description: 'A GitHub Action to deploy to Firebase Hosting using firebase-tools CLI.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
