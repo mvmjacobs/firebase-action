@@ -62,7 +62,7 @@ jobs:
   - For information about using secrets in GitHub Actions please see the [Github Action Docs for Encrypted Secrets.](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets)
 
 ## How to contribute
-[Open an issue](https://github.com/mvmjacobs/firebase-gh-action/issues).
+[Open an issue](https://github.com/mvmjacobs/firebase-action/issues).
 
 ## License
-This repository is licensed under the [MIT License](https://github.com/mvmjacobs/firebase-gh-action/blob/master/LICENSE.md).
+This repository is licensed under the [MIT License](https://github.com/mvmjacobs/firebase-action/blob/master/LICENSE.md).
